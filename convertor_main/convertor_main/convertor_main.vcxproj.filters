@@ -24,12 +24,30 @@
     <ClCompile Include="convert_from_T_to_kg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="convert_from_KM_to_M.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="convert_from_ML_to_L.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="c_wrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="convert_vitrual.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="convert_from_T_to_KG.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convert_from_KM_to_M.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="convert_from_ML_to_L.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="c_wrapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

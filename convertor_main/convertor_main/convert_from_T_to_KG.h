@@ -15,7 +15,7 @@ public:
 	}
 	void convert() override
 	{
-		std::cout << this->value << "T   =   " << this->value * 1000 << "KG";
+		std::cout << this->value << "T   =   " << this->value * 1000 << "KG\n";
 	}
 
 };

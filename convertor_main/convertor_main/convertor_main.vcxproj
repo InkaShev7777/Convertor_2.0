@@ -140,12 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="convertor_main.cpp" />
+    <ClCompile Include="convert_from_KM_to_M.cpp" />
+    <ClCompile Include="convert_from_ML_to_L.cpp" />
     <ClCompile Include="convert_from_T_to_kg.cpp" />
     <ClCompile Include="convert_vitrual.cpp" />
+    <ClCompile Include="c_wrapper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="convert_from_KM_to_M.h" />
+    <ClInclude Include="convert_from_ML_to_L.h" />
     <ClInclude Include="convert_from_T_to_KG.h" />
     <ClInclude Include="convert_vitrual.h" />
+    <ClInclude Include="c_wrapper.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
